@@ -35,3 +35,30 @@ IngredientList.create(quantity:"1/4 teaspoon ", recipe_id: $r3.id , ingredient_i
 IngredientList.create(quantity:"Additional oil for frying", recipe_id: $r3.id , ingredient_id: nil )
 IngredientList.create(quantity:"1/2 cup ", recipe_id: $r3.id , ingredient_id: $i16.id )
 IngredientList.create(quantity:"1/4 teaspoon ", recipe_id: $r3.id , ingredient_id: $i17.id )
+
+IngredientList.create(quantity:"1 teaspoon crumbled ", recipe_id: $r4.id , ingredient_id: $i25.id )
+IngredientList.create(quantity:"1 teaspoon ", recipe_id: $r4.id , ingredient_id: $i26.id )
+IngredientList.create(quantity:"2 teaspoon ", recipe_id: $r4.id , ingredient_id: $i21.id )
+IngredientList.create(quantity:"18 ounces ", recipe_id: $r4.id , ingredient_id: $i27.id )
+IngredientList.create(quantity:"1/4 cup ", recipe_id: $r4.id , ingredient_id: $i28.id )
+IngredientList.create(quantity:"1/4 cup ", recipe_id: $r4.id , ingredient_id: $i29.id )
+
+
+IngredientList.create(quantity:"18 ounces soft ", recipe_id: $r5.id , ingredient_id: $i30.id )
+IngredientList.create(quantity:"1 cup ", recipe_id: $r5.id , ingredient_id: $i31.id )
+IngredientList.create(quantity:"1 tablespoon ", recipe_id: $r5.id , ingredient_id: $i3.id )
+IngredientList.create(quantity:"1 tablespoon ", recipe_id: $r5.id , ingredient_id: $i32.id )
+IngredientList.create(quantity:"1 tablespoon ", recipe_id: $r5.id , ingredient_id: $i15.id )
+IngredientList.create(quantity:"1 tablespoon freshly grated ", recipe_id: $r5.id , ingredient_id: $i34.id )
+IngredientList.create(quantity:"5 tablespoon ", recipe_id: $r5.id , ingredient_id: $i33.id )
+IngredientList.create(quantity:"(optional) 1/3 cup ", recipe_id: $r5.id , ingredient_id: $i34.id )
+
+IngredientList.create(quantity:"2 cups thinly sliced ", recipe_id: $r6.id , ingredient_id: $i36.id )
+IngredientList.create(quantity:"1 teaspoon ", recipe_id: $r6.id , ingredient_id: $i21.id )
+IngredientList.create(quantity:"1 teaspoon ", recipe_id: $r6.id , ingredient_id: $i37.id )
+IngredientList.create(quantity:"1 teaspoon ", recipe_id: $r6.id , ingredient_id: $i39.id )
+IngredientList.create(quantity:"2 teaspoon ", recipe_id: $r6.id , ingredient_id: $i40.id )
+IngredientList.create(quantity:"1 tablespoon ", recipe_id: $r6.id , ingredient_id: $i3.id )
+IngredientList.create(quantity:"1 tablespoon ", recipe_id: $r6.id , ingredient_id: $i16.id )
+IngredientList.create(quantity:"1/4 cup ", recipe_id: $r6.id , ingredient_id: $i38.id )
+
