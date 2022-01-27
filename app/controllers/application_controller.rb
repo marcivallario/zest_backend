@@ -11,4 +11,11 @@ class ApplicationController < Sinatra::Base
     recipe.destroy
     recipe.to_json
   end
+
+  patch "/recipes/:id" do
+    recipe = Recipe.find(params[:id])
+    recipe.update(rating: params[:rating])
+    recipe.to_json
+  end
+  
 end
