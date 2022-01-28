@@ -16,6 +16,4 @@ class ApplicationController < Sinatra::Base
       recipe.destroy
       recipe.to_json(include: [:cuisine, :directions, :ingredients, :ingredient_lists])
     end
-  end
-
 end

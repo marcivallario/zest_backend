@@ -1,7 +1,6 @@
 #ingredients list
 puts  "🌱 Seeding ingredient lists..."
 #Steak Taco(r1) ingredient list
-
 IngredientList.create(quantity:"1 tablespoon ", recipe_id: $r1.id , ingredient_id: $i1.id )
 IngredientList.create(quantity:"3 tablespoons fresh ", recipe_id: $r1.id , ingredient_id: $i2.id )
 IngredientList.create(quantity:"3 tablespoons ", recipe_id: $r1.id , ingredient_id:$i3.id )
@@ -36,6 +35,7 @@ IngredientList.create(quantity:"Additional oil for frying", recipe_id: $r3.id , 
 IngredientList.create(quantity:"1/2 cup ", recipe_id: $r3.id , ingredient_id: $i16.id )
 IngredientList.create(quantity:"1/4 teaspoon ", recipe_id: $r3.id , ingredient_id: $i17.id )
 
+#r4
 IngredientList.create(quantity:"1 teaspoon crumbled ", recipe_id: $r4.id , ingredient_id: $i25.id )
 IngredientList.create(quantity:"1 teaspoon ", recipe_id: $r4.id , ingredient_id: $i26.id )
 IngredientList.create(quantity:"2 teaspoon ", recipe_id: $r4.id , ingredient_id: $i21.id )
@@ -43,7 +43,7 @@ IngredientList.create(quantity:"18 ounces ", recipe_id: $r4.id , ingredient_id: 
 IngredientList.create(quantity:"1/4 cup ", recipe_id: $r4.id , ingredient_id: $i28.id )
 IngredientList.create(quantity:"1/4 cup ", recipe_id: $r4.id , ingredient_id: $i29.id )
 
-
+#r5
 IngredientList.create(quantity:"18 ounces soft ", recipe_id: $r5.id , ingredient_id: $i30.id )
 IngredientList.create(quantity:"1 cup ", recipe_id: $r5.id , ingredient_id: $i31.id )
 IngredientList.create(quantity:"1 tablespoon ", recipe_id: $r5.id , ingredient_id: $i3.id )
@@ -51,8 +51,9 @@ IngredientList.create(quantity:"1 tablespoon ", recipe_id: $r5.id , ingredient_i
 IngredientList.create(quantity:"1 tablespoon ", recipe_id: $r5.id , ingredient_id: $i15.id )
 IngredientList.create(quantity:"1 tablespoon freshly grated ", recipe_id: $r5.id , ingredient_id: $i34.id )
 IngredientList.create(quantity:"5 tablespoon ", recipe_id: $r5.id , ingredient_id: $i33.id )
-IngredientList.create(quantity:"(optional) 1/3 cup ", recipe_id: $r5.id , ingredient_id: $i34.id )
+IngredientList.create(quantity:"(optional) 1/3 cup ", recipe_id: $r5.id , ingredient_id: $i35.id )
 
+#r6
 IngredientList.create(quantity:"2 cups thinly sliced ", recipe_id: $r6.id , ingredient_id: $i36.id )
 IngredientList.create(quantity:"1 teaspoon ", recipe_id: $r6.id , ingredient_id: $i21.id )
 IngredientList.create(quantity:"1 teaspoon ", recipe_id: $r6.id , ingredient_id: $i37.id )
@@ -62,3 +63,35 @@ IngredientList.create(quantity:"1 tablespoon ", recipe_id: $r6.id , ingredient_i
 IngredientList.create(quantity:"1 tablespoon ", recipe_id: $r6.id , ingredient_id: $i16.id )
 IngredientList.create(quantity:"1/4 cup ", recipe_id: $r6.id , ingredient_id: $i38.id )
 
+#r7
+IngredientList.create(quantity:"1/4 green or white ", recipe_id: $r7.id , ingredient_id: $i48.id )
+IngredientList.create(quantity:"1/2 ", recipe_id: $r7.id , ingredient_id: $i49.id )
+IngredientList.create(quantity:"1 stick ", recipe_id: $r7.id , ingredient_id: $i50.id )
+IngredientList.create(quantity:"2 tablespoon ", recipe_id: $r7.id , ingredient_id: $i51.id )
+IngredientList.create(quantity:"2 tablespoon ", recipe_id: $r7.id , ingredient_id: $i52.id )
+IngredientList.create(quantity:"1 tablespoon", recipe_id: $r7.id , ingredient_id: $i53.id )
+IngredientList.create(quantity:"2 teaspoon ", recipe_id: $r7.id , ingredient_id: $i16.id )
+IngredientList.create(quantity:"4 ", recipe_id: $r7.id , ingredient_id: $i54.id )
+IngredientList.create(quantity:"4 ", recipe_id: $r7.id , ingredient_id: $i55.id )
+IngredientList.create(quantity:"(optional) ", recipe_id: $r7.id , ingredient_id: $i56.id )
+
+#r8
+IngredientList.create(quantity:"2 tablespoons ", recipe_id: $r8.id , ingredient_id: $i41.id )
+IngredientList.create(quantity:"1 1/2 pounds boneless skinless ", recipe_id: $r8.id , ingredient_id: $i42.id )
+IngredientList.create(quantity:"12 ounces roasted ", recipe_id: $r8.id , ingredient_id: $i43.id )
+IngredientList.create(quantity:"14.5 ounce ", recipe_id: $r8.id , ingredient_id: $i44.id )
+IngredientList.create(quantity:"6 ounce jar ", recipe_id: $r8.id , ingredient_id: $i45.id )
+IngredientList.create(quantity:"1 diced ", recipe_id: $r8.id , ingredient_id: $i46.id )
+IngredientList.create(quantity:"1 tablespoon minced ", recipe_id: $r8.id , ingredient_id: $i4.id )
+IngredientList.create(quantity:"16 ounces shredded ", recipe_id: $r8.id , ingredient_id: $i47.id )
+
+IngredientList.create(quantity:"1 ", recipe_id: $r9.id , ingredient_id: $i10.id )
+IngredientList.create(quantity:"4 ", recipe_id: $r9.id , ingredient_id: $i57.id )
+IngredientList.create(quantity:"1 ", recipe_id: $r9.id , ingredient_id: $i36.id )
+IngredientList.create(quantity:"1 ", recipe_id: $r9.id , ingredient_id: $i49.id )
+IngredientList.create(quantity:"pitted ", recipe_id: $r9.id , ingredient_id: $i58.id )
+IngredientList.create(quantity:"pinch of ", recipe_id: $r9.id , ingredient_id: $i21.id )
+IngredientList.create(quantity:"4 tablespoon ", recipe_id: $r9.id , ingredient_id: $i29.id )
+IngredientList.create(quantity:"2 tablespoon ", recipe_id: $r9.id , ingredient_id: $i59.id )
+IngredientList.create(quantity:"Blocks of ", recipe_id: $r9.id , ingredient_id: $i60.id )
+IngredientList.create(quantity:"1/2 tablespoon ", recipe_id: $r9.id , ingredient_id: $i7.id )

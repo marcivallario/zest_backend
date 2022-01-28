@@ -46,4 +46,22 @@ Direction.create(step: 2, text:"In a large bowl, combine cucumbers, salt and pep
 Direction.create(step: 3, text:"Add sugar, soy sauce, rice wine vinegar, and sesame oil, mix well.", recipe_id: $r6.id)
 Direction.create(step: 4, text:"Sprinkle with sesame seeds and mix.", recipe_id: $r6.id)
 
-#Direction.create(step: , text:"", recipe_id: $r.id)
+#r7
+Direction.create(step: 1, text:"Finely shred the cabbage, green pepper and celery into a bowl. Mix the mustard, mayo, soured cream, cider vinegar and sugar with some seasoning. Add it to the veg and use your hands to mix everything thoroughly. Leave in the fridge until you need it. Cook the sausages and warm the rolls.", recipe_id: $r7.id)
+Direction.create(step: 2, text:"Put the sausages in the rolls, pile on the slaw, shake on the hot sauce and add a drizzle more mustard.", recipe_id: $r7.id)
+
+#r8
+Direction.create(step: 1, text:"Preheat oven to 350F. Lightly grease a medium casserole dish.", recipe_id: $r8.id)
+Direction.create(step: 2, text:"Heat 1 tablespoon oil in a skillet over medium heat, and cook the chicken until juices run clear.", recipe_id: $r8.id)
+Direction.create(step: 3, text:"Puree the roasted red peppers in a blender or food processor until smooth. In the prepared casserole dish, mix the cooked chicken, roasted red peppers, tomatoes, mushrooms, onion, and garlic. Season with salt and pepper. Drizzle with remaining 1 tablespoon olive oil, and top with mozzarella cheese.", recipe_id: $r8.id)
+Direction.create(step: 4, text:"Bake 30 minutes in the preheated oven, until cheese is melted and bubbly.", recipe_id: $r8.id)
+
+#r9
+Direction.create(step: 1, text:"Cut the red onion in half and thinly slice into half moons.", recipe_id: $r9.id)
+Direction.create(step: 2, text:"Cut the tomatoes into wedges or large chunks", recipe_id: $r9.id)
+Direction.create(step: 3, text:"Cut the partially peeled cucumber in half length-wise, then slice into thick halves", recipe_id: $r9.id)
+Direction.create(step: 4, text:"Thinly slice the bell pepper into rings.", recipe_id: $r9.id)
+Direction.create(step: 5, text:"Place everything in a large salad dish. Add a good handful of pitted kalamata olives.", recipe_id: $r9.id)
+Direction.create(step: 6, text:"Season very lightly with kosher salt and a bit of dried oregano.", recipe_id: $r9.id)
+Direction.create(step: 7, text:"Pour the olive oil and red wine vinegar all over the salad. Give everything a very gentle toss to mix", recipe_id: $r9.id)
+Direction.create(step: 8, text:"Now add the the feta blocks on top and add a sprinkle more of dried oregano.", recipe_id: $r9.id)
