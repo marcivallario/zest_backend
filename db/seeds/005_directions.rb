@@ -1,6 +1,5 @@
 #Directions
 puts  "🌱 Seeding directions..."
-
 #Steak Taco (r1) directions
 Direction.create(step: 1 , text:"Pour vegetable oil, lime juice, soy sauce, garlic, chili powder, cumin and oregano into a large bowl. Whisk to combine everything together.", recipe_id: $r1.id)
 Direction.create(step: 2 , text:"Place steak pieces into the marinade mixture; stir and toss to coat all the steak in the marinade.", recipe_id: $r1.id)
@@ -11,27 +10,21 @@ Direction.create(step: 6, text:"Place steak pieces in hot skillet. Cook and stir
 Direction.create(step: 7, text:"Place cooked steak onto a plate and tent with foil to keep warm.", recipe_id: $r1.id)
 Direction.create(step: 8, text:"Cook remaining batch of steak the same way. Discard marinade.", recipe_id: $r1.id )
 Direction.create(step: 9, text:"Serve warm steak in warmed tortillas and top with desired amount of fresh cilantro, red onion and lime juice.", recipe_id: $r1.id )
-
 #Horchata (r2)
 Direction.create(step: 1, text:"Place rice in a blender; cover and process 2-3 minutes or until very fine. Transfer to a large bowl; add almonds, cinnamon stick, lime zest and hot water. Let stand, covered, at room temperature 8 hours.", recipe_id: $r2.id)
 Direction.create(step: 2, text:"Discard cinnamon stick. Transfer rice mixture to a blender; cover and process 3-4 minutes or until smooth. Add sugar. Process until sugar is dissolved.", recipe_id: $r2.id)
 Direction.create(step: 3, text:"Place a strainer over a pitcher; line with double-layered cheesecloth. Pour rice mixture over cheesecloth. Using a ladle, press mixture through strainer.", recipe_id: $r2.id)
 Direction.create(step: 4, text:"Stir in cold water. Serve over ice. If desired, sprinkle with cinnamon and serve with lime.", recipe_id: $r2.id)
-
-
 # Churros (r3)
 Direction.create(step: 1, text:"In a large saucepan, bring the water, milk, oil and salt to a boil. Add flour all at once and stir until a smooth ball forms. Transfer to a large bowl; let stand for 5 minutes.", recipe_id: $r3.id)
 Direction.create(step: 2, text:"Beat on medium-high speed for 1 minute or until the dough softens. Add egg and lemon zest; beat for 1-2 minutes. Set aside to cool.", recipe_id: $r3.id)
 Direction.create(step: 3, text:"In a deep cast-iron or heavy skillet, heat 1 inch oil to 375°. Insert a large star tip in a pastry bag and fill with dough. On a baking sheet, pipe dough into 4-inch strips.", recipe_id: $r3.id)
 Direction.create(step: 4, text:"Transfer strips to skillet and fry until golden brown on both sides. Drain on paper towels. Combine the sugar and cinnamon and sprinkle over churros. Serve warm.", recipe_id: $r3.id)
-
 # Edamame (r4)
-
 Direction.create(step: 1, text:"For the lemon dressing, place lemon juice and extra virgin olive oil in a small bowl, season to taste and whisk to combine.", recipe_id: $r4.id)
 Direction.create(step: 2, text:"Place the crumbled nori, togarashi, and salt in a bowl. Toss to combine", recipe_id: $r4.id)
 Direction.create(step: 3, text:"Half-fill a medium saucepan with salted water. Place over high heat and bring to the boil. Add edamame and blanch for 30 seconds, refresh in iced water, then drain. Place edamame in a large bowl and drizzle with extra olive oil.", recipe_id: $r4.id)
 Direction.create(step: 4, text:"Preheat a lightly greased chargrill pan or barbecue to high. Grill edamame for 2-3 minutes until charred. Transfer to a bowl, add dressing and seasoning mixture to taste and toss to combine. Transfer to a large serving platter, scatter with extra seasoning mixture and serve immediately.", recipe_id: $r4.id)
-
 # (r5)
 Direction.create(step: 1, text:"Wrap the tofu with paper towels, and place it on a flat tray. Put a cutting board or a flat plate on top of the tofu, and let sit for about 15 minutes. Meanwhile, put dashi, soy sauce, and mirin in a saucepan, and bring to a boil.", recipe_id: $r5.id)
 Direction.create(step: 2, text:"Mix 1 tablespoon katakuriko potato starch with 1 tablespoon water.", recipe_id: $r5.id)
@@ -39,11 +32,25 @@ Direction.create(step: 3, text:"Add the katakuriko mixture to the sauce, and sti
 Direction.create(step: 4, text:"Dust the tofu with 4 tablespoons of katakuriko to coat the pieces completely.", recipe_id: $r5.id)
 Direction.create(step: 5, text:"Heat oil to 350 F in a deep pot. Deep-fry the tofu pieces until they turn light brown. Drain on paper towels.", recipe_id: $r5.id)
 Direction.create(step: 6, text:"Place each fried tofu piece in a small dish and pour the sauce over it. Garnish with grated ginger and bonito flakes.", recipe_id: $r5.id)
-
 # (r6)
 Direction.create(step: 1, text:"Peel cucumbers, cut lengthwise, de-seed, and slice into thin half moons", recipe_id: $r6.id)
 Direction.create(step: 2, text:"In a large bowl, combine cucumbers, salt and pepper, mix well.", recipe_id: $r6.id)
 Direction.create(step: 3, text:"Add sugar, soy sauce, rice wine vinegar, and sesame oil, mix well.", recipe_id: $r6.id)
 Direction.create(step: 4, text:"Sprinkle with sesame seeds and mix.", recipe_id: $r6.id)
-
-#Direction.create(step: , text:"", recipe_id: $r.id)
+#r7
+Direction.create(step: 1, text:"Finely shred the cabbage, green pepper and celery into a bowl. Mix the mustard, mayo, soured cream, cider vinegar and sugar with some seasoning. Add it to the veg and use your hands to mix everything thoroughly. Leave in the fridge until you need it. Cook the sausages and warm the rolls.", recipe_id: $r7.id)
+Direction.create(step: 2, text:"Put the sausages in the rolls, pile on the slaw, shake on the hot sauce and add a drizzle more mustard.", recipe_id: $r7.id)
+#r8
+Direction.create(step: 1, text:"Preheat oven to 350F. Lightly grease a medium casserole dish.", recipe_id: $r8.id)
+Direction.create(step: 2, text:"Heat 1 tablespoon oil in a skillet over medium heat, and cook the chicken until juices run clear.", recipe_id: $r8.id)
+Direction.create(step: 3, text:"Puree the roasted red peppers in a blender or food processor until smooth. In the prepared casserole dish, mix the cooked chicken, roasted red peppers, tomatoes, mushrooms, onion, and garlic. Season with salt and pepper. Drizzle with remaining 1 tablespoon olive oil, and top with mozzarella cheese.", recipe_id: $r8.id)
+Direction.create(step: 4, text:"Bake 30 minutes in the preheated oven, until cheese is melted and bubbly.", recipe_id: $r8.id)
+#r9
+Direction.create(step: 1, text:"Cut the red onion in half and thinly slice into half moons.", recipe_id: $r9.id)
+Direction.create(step: 2, text:"Cut the tomatoes into wedges or large chunks", recipe_id: $r9.id)
+Direction.create(step: 3, text:"Cut the partially peeled cucumber in half length-wise, then slice into thick halves", recipe_id: $r9.id)
+Direction.create(step: 4, text:"Thinly slice the bell pepper into rings.", recipe_id: $r9.id)
+Direction.create(step: 5, text:"Place everything in a large salad dish. Add a good handful of pitted kalamata olives.", recipe_id: $r9.id)
+Direction.create(step: 6, text:"Season very lightly with kosher salt and a bit of dried oregano.", recipe_id: $r9.id)
+Direction.create(step: 7, text:"Pour the olive oil and red wine vinegar all over the salad. Give everything a very gentle toss to mix", recipe_id: $r9.id)
+Direction.create(step: 8, text:"Now add the the feta blocks on top and add a sprinkle more of dried oregano.", recipe_id: $r9.id)
